@@ -2,6 +2,12 @@
 
 Калькулятор IT-услуг с AI-ассистентом и автоматической генерацией коммерческих предложений.
 
+## 🚀 Быстрый деплой
+
+**Развертывание на Vercel:** См. подробные инструкции в [VERCEL_DEPLOYMENT.md](./VERCEL_DEPLOYMENT.md)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ffudign%2Fasystem_kalkulator&root-directory=app)
+
 ## Архитектура
 
 ```
