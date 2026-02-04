@@ -1,0 +1,67 @@
+import { ServiceOption } from '@/types/calculator.types';
+
+export const hostingServices: ServiceOption[] = [
+  {
+    id: 'host-shared',
+    name: 'Shared хостинг',
+    price: 10,
+    description: 'Базовый хостинг для небольших сайтов (в месяц).',
+    hasQuantity: true,
+    minQuantity: 1,
+    maxQuantity: 12,
+  },
+  {
+    id: 'host-vps',
+    name: 'VPS сервер',
+    price: 30,
+    description: 'Виртуальный сервер для средних проектов (в месяц).',
+    hasQuantity: true,
+    minQuantity: 1,
+    maxQuantity: 12,
+  },
+  {
+    id: 'host-dedicated',
+    name: 'Выделенный сервер',
+    price: 100,
+    description: 'Выделенный сервер для крупных проектов (в месяц).',
+    hasQuantity: true,
+    minQuantity: 1,
+    maxQuantity: 12,
+  },
+  {
+    id: 'host-domain',
+    name: 'Домен',
+    price: 15,
+    description: 'Регистрация доменного имени (.kg, .com, .ru) на год.',
+  },
+  {
+    id: 'host-ssl',
+    name: 'SSL сертификат',
+    price: 30,
+    description: 'Платный SSL сертификат на год (для банков, госорганов).',
+  },
+  {
+    id: 'host-email',
+    name: 'Корпоративная почта',
+    price: 5,
+    description: 'Почтовый ящик на вашем домене (в месяц, за ящик).',
+    hasQuantity: true,
+    minQuantity: 1,
+    maxQuantity: 50,
+  },
+  {
+    id: 'host-cdn',
+    name: 'CDN',
+    price: 20,
+    description: 'Ускорение загрузки через сеть доставки контента (в месяц).',
+    hasQuantity: true,
+    minQuantity: 1,
+    maxQuantity: 12,
+  },
+  {
+    id: 'host-migration',
+    name: 'Перенос сайта',
+    price: 50,
+    description: 'Миграция сайта на новый хостинг.',
+  },
+];
